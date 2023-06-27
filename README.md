@@ -1,13 +1,13 @@
 # Text Personality and Emotion Computing
 
-This is the information for a research project that aims to investigate the relationship between personality and emotions in automated personality and emotion detection.
+This is the code, dataset and prediction information for a research project that aims to investigate the relationship between personality and emotions in automated personality and emotion detection.
 
-The adressed questions are:
+The adressed questions of the study are:
 - How accurately can automated models predict personality traits and emotions from text data?
 - How related are the correlations between annotated and predicted personality traits and emotions?
-- How consistent are the correlations from annotated data with the correlations reported in established personality and emotion theories? (the last question is not answered here, as it is theoretical)
+- How consistent are the correlations from annotated data with the correlations reported in established personality and emotion theories?
 
-All the code developed for this study was run on GoogleColab with a GPU type T4.
+All the code developed was run on GoogleColab with a GPU type T4.
 
 ### Datasets used in this research
 - [PELD](https://github.com/preke/PELD)
