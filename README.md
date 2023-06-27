@@ -5,15 +5,19 @@ This is the information for a research project that aims to investigate the rela
 The adressed questions are:
 - How accurately can automated models predict personality traits and emotions from text data?
 - How related are the correlations between annotated and predicted personality traits and emotions?
-- How consistent are the correlations from annotated data with the correlations reported in established personality and emotion theories? (not answered here, as it is theoretical)
+- How consistent are the correlations from annotated data with the correlations reported in established personality and emotion theories? ( last question not answered here, as it is theoretical)
 
-
+All the code developed for this study was run on GoogleColab with a GPU type T4.
 
 ### Datasets used in this research
 - [PELD](https://github.com/preke/PELD)
 - [WASSA 2022](https://codalab.lisn.upsaclay.fr/competitions/834#learn_the_details-datasets)
 
-Technology is evolving quickly, and Text-based Personality Computing (TPC) and automatic emotion assessment have attracted a lot of research interests. This study explores their efficiency as a replacement of traditional methods in personality and emotion assessment. To accomplish the aim of investigation of correlations between personality traits and emotions in automated detection two datasets with annotated emotions and Big Five personality traits are used, and supervised transformer-based methods are implemented to predict personality traits and emotions. The utilized evaluation metrics are accuracy, precision, recall and F1-score. Correlations between emotions and traits are computed, and the alignment between the correlations from the original and the predicted data is assessed using the Pearson correlation, RMSE, MAE, and the Wilcoxon signed-rank test. Furthermore, the correlations from the original data are compared to established theories. The findings reveal that DistilBERT and DeBERTa perform the best in predicting personality traits and emotions. The correlations from the predicted data closely agree with those from the original data. Some of the pairs (e.g., fear-stability, anger-conscientiousness) align with established theories while some others do not (e.g., neutralism-all personality traits). This research contributes to the understanding and applicability of TPC in personality and emotion assessment.
+
+### References
+- Buechel, Sven, Anneke Buffone, Barry Slaff, Lyle Ungar, and João Sedoc. “Modeling Empathy and Distress in Reaction to News Stories.” In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 4758–65. Brussels, Belgium: Association for Computational Linguistics, 2018. https://doi.org/10.18653/v1/D18-1507.
+- Barriere, Valentin, Shabnam Tafreshi, João Sedoc, and Sawsan Alqahtani. “WASSA 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories.” In Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis, 214–27. Dublin, Ireland: Association for Computational Linguistics, 2022. https://doi.org/10.18653/v1/2022.wassa-1.20.
+- Wen, Zhiyuan, Jiannong Cao, Ruosong Yang, Shuaiqi Liu, and Jiaxing Shen. “Automatically Select Emotion for Response via Personality-Affected Emotion Transition.” In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 5010–20. Online: Association for Computational Linguistics, 2021. https://doi.org/10.18653/v1/2021.findings-acl.444.
 
 ### Citation
 Beyond Words: Unmasking the Relationship between Emotions and Personality Traits, Pinelopi Theotoki,  June 2022 (link will be provided soon)
