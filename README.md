@@ -20,4 +20,4 @@ All the code developed was run on GoogleColab with a GPU type T4.
 - Wen, Zhiyuan, Jiannong Cao, Ruosong Yang, Shuaiqi Liu, and Jiaxing Shen. “Automatically Select Emotion for Response via Personality-Affected Emotion Transition.” In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 5010–20. Online: Association for Computational Linguistics, 2021. https://doi.org/10.18653/v1/2021.findings-acl.444.
 
 ### Citation
-Beyond Words: Unmasking the Relationship between Emotions and Personality Traits, Pinelopi Theotoki,  June 2022 (link will be provided soon)
+Beyond Words: Unmasking the Relationship between Emotions and Personality Traits, Pinelopi Theotoki,  June 2023 (link will be provided soon)
